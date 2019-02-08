@@ -1,0 +1,34 @@
+{
+  "employee": [
+    {
+      "Name": "San",
+      "Age": 22,
+      "Email": "san@gmail.com",
+      "id": 1
+    },
+    {
+      "Name": "Jegan",
+      "Age": 24,
+      "Email": "jk@cmail.com",
+      "id": 2
+    },
+    {
+      "Name": "Saran",
+      "Age": 22,
+      "Email": "s.j@c.com",
+      "id": 3
+    },
+    {
+      "Name": "Walton",
+      "Age": 46,
+      "Email": "walton@hotmail.com",
+      "id": 4
+    },
+    {
+      "Name": "Ether",
+      "Age": 29,
+      "Email": "Ether@net.coms",
+      "id": 5
+    }
+  ]
+}

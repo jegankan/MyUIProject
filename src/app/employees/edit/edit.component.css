@@ -1,0 +1,28 @@
+input[id="empname"], input[id="empage"], input[id="empemail"]
+{
+    background-color: transparent;
+    color: #7a7777;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    padding: 3px 10px;
+}
+
+input[id="updbutton"] {
+    border:2px;
+    color: white;
+    border-radius: 4px;
+    background-color: #1E90FF;
+    padding: 8px 15px;
+}
+
+input[id="canbutton"] {
+    border:2px;
+    color: white;
+    border-radius: 4px;
+    background-color: rgb(174, 181, 189);
+    padding: 8px 15px;
+}

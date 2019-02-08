@@ -1,0 +1,37 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+
+<div style="text-align:center">
+  <h1>
+     {{ title }} Employee
+  </h1>
+  <br>
+
+  <!-- <form #userlogin="ngForm" (ngSubmit)="onClickSubmit(userlogin.value)" > -->
+  <form #userlogin="ngForm" (ngSubmit)="onClickSubmit(userlogin.value)" >
+    <table align="center" cellpadding = "10">
+      <tr>
+        <td align="right"><label>Name</label></td>
+        <td><input type = "text" class="newform" name="empname" id = "empname" maxlength="30" placeholder = "Name" ngModel></td>
+      </tr>
+      <tr>
+        <td align="right"><label>Age</label></td>
+        <td><input type = "number" class="newform" name="empage" id = "empage" maxlength="30" placeholder = "Age" ngModel></td>
+      </tr>
+      <tr>
+        <td align="right"><label>EmailID</label></td>
+        <td><input type = "email" class="newform" name="empemail" id = "empemail" maxlength="30" placeholder = "Email-ID" ngModel></td>
+      </tr>
+    </table>
+    <br>
+ 
+<button type = "submit" id="addbutton" name="addbutton">Add</button>
+<button type= "button" id="canbutton" (ngClick)="cancelFunc(userlogin.value)">Cancel</button>
+</form>
+
+ 
+</div>
+
+<!-- <button type="button" (click)="makeRequest()">Request</button>
+
+Data is {{data}} -->

@@ -1,0 +1,10 @@
+{
+    "employee_detail":[
+        {
+            "id" :1,
+            "Name":"Jegan",
+            "Age": "24",
+            "Email":"abc@gmail.com"
+        }
+    ]
+}
